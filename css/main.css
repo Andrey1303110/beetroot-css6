@@ -11,9 +11,13 @@ name {
     color: #000;
 }
 
+.main {
+    margin: 140px auto 150px;
+    width: 68%;
+}
+
 div p {
     font-size: 18px;
-    padding: auto;
 }
 
 div p:nth-child(2):first-letter {
@@ -23,10 +27,38 @@ div p:nth-child(2):first-letter {
     color: black;
 }
 
+div p:nth-child(2) {
+    margin-top: 25px;
+}
+
+div p:nth-child(3) {
+    margin-top: 23px;
+}
+
+div p:nth-child(4) {
+    margin-top: 23px;
+}
+
+div p:nth-child(5) {
+    margin-top: -23px;
+    font-style: italic;
+    font-size: 23px;
+}
+
+div p:nth-child(6) {
+    margin-top: 40px;
+}
+
+p b {
+    font-size: 50px;
+    display: inline;
+    margin-right: 15px;
+}
+
 .button {
-    padding: 10px;
-    width: 35px;
-    height: 70px;
+    padding: 12px 30px;
+    width: 180px;
+    height: 40px;
     background-color: transparent;
     border: 3px solid rgba(255, 217, 0, 0.76);
     text-transform: uppercase;
