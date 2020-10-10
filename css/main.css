@@ -7,30 +7,42 @@ body {
 }
 
 name {
-    font-size: 28px;
+    font-size: 32px;
     color: #000;
 }
 
 div p {
     font-size: 18px;
-    letter-spacing: ;
+    padding: auto;
 }
 
 div p:nth-child(2):first-letter {
     font-size: 650%;
     float: left;
     margin: -72px 10px -70px 0px;
+    color: black;
 }
 
 .button {
     padding: 10px;
-    width: 180px;
+    width: 35px;
+    height: 70px;
     background-color: transparent;
     border: 3px solid rgba(255, 217, 0, 0.76);
     text-transform: uppercase;
     cursor: pointer;
     font-family: Playfair Display;
-    color: rgba(0, 0, 0, 0.712);
+    color: rgba(0, 0, 0, 0.400);
     font-size: 25px;
     letter-spacing: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:active {
+    background-color: gold;
+}
+
+.button:hover {
+    color:rgba(0, 0, 0, 1);
 }
